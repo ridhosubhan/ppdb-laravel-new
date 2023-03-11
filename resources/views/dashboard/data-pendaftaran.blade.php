@@ -56,7 +56,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
                                     <h4>Data Pendaftaran</h4>
                                 </div>
                                 <div class="card-body">
-                                    <div class="table-responsive">
+                                    <div class="table-responsive text-nowrap">
                                         <table id="example1" class="table table-bordered table-striped">
                                             <thead>
                                                 <tr>
@@ -82,13 +82,14 @@ scratch. This page gets rid of all links and provides the needed markup only.
                                                                 style="max-height: 120px; max-width: 120px;">
                                                         </td>
                                                         <td>
-                                                            <a onclick="getPendaftar({{ $row->id }})" href="javascript:void(0)" class="text-info" data-toggle="modal"
-                                                                data-target="#modal-lg">
+                                                            <a onclick="getPendaftar({{ $row->id }})"
+                                                                href="javascript:void(0)" class="text-info"
+                                                                data-toggle="modal" data-target="#modal-lg">
                                                                 <b>
                                                                     {{ $row->nama }}
                                                                 </b>
                                                             </a>
-
+                                                            {{-- MODAL LIER --}}
                                                             <div class="modal fade" id="modal-lg">
                                                                 <div class="modal-dialog modal-lg">
                                                                     <div class="modal-content">
@@ -107,8 +108,10 @@ scratch. This page gets rid of all links and provides the needed markup only.
                                                                                     class="table table-sm table-bordered">
                                                                                     <tbody>
                                                                                         <tr>
-                                                                                            <th rowspan="4" class="text-center">
-                                                                                                <div class="text-center">
+                                                                                            <th rowspan="4"
+                                                                                                class="text-center">
+                                                                                                <div
+                                                                                                    class="text-center">
                                                                                                     <img src=""
                                                                                                         id="_pasfoto"
                                                                                                         class="rounded mx-auto d-block img-thumbnail img-responsive"
@@ -199,7 +202,8 @@ scratch. This page gets rid of all links and provides the needed markup only.
                                                                                                         class="col-sm-4 col-form-label">Alamat</label>
                                                                                                     <div
                                                                                                         class="col-sm-8">
-                                                                                                        <textarea id="_alamat" rows="5" readonly style="width: 100%"></textarea>
+                                                                                                        <blade
+                                                                                                            ___html_tags_0___ />
                                                                                                     </div>
                                                                                                 </div>
                                                                                             </td>
@@ -254,45 +258,61 @@ scratch. This page gets rid of all links and provides the needed markup only.
                                                                                         <tr>
                                                                                             <td>Kartu Keluarga</td>
                                                                                             <td>
-                                                                                                <a href="" id="_kk"
-                                                                                                    target="_blank" class="btn btn-md btn-outline-info">
-                                                                                                    <i class="fa fa-solid fa-file"></i>
+                                                                                                <a href=""
+                                                                                                    id="_kk"
+                                                                                                    target="_blank"
+                                                                                                    class="btn btn-md btn-outline-info">
+                                                                                                    <i
+                                                                                                        class="fa fa-solid fa-file"></i>
                                                                                                 </a>
                                                                                             </td>
                                                                                         </tr>
                                                                                         <tr>
-                                                                                            <td>Kartu Tanda Penduduk</td>
+                                                                                            <td>Kartu Tanda Penduduk
+                                                                                            </td>
                                                                                             <td>
-                                                                                                <a href="" id="_ktp"
-                                                                                                    target="_blank" class="btn btn-md btn-outline-info">
-                                                                                                    <i class="fa fa-solid fa-file"></i>
+                                                                                                <a href=""
+                                                                                                    id="_ktp"
+                                                                                                    target="_blank"
+                                                                                                    class="btn btn-md btn-outline-info">
+                                                                                                    <i
+                                                                                                        class="fa fa-solid fa-file"></i>
                                                                                                 </a>
                                                                                             </td>
                                                                                         </tr>
                                                                                         <tr>
                                                                                             <td>Transkrip</td>
                                                                                             <td>
-                                                                                                <a href="" id="_transkrip"
-                                                                                                    target="_blank" class="btn btn-md btn-outline-info">
-                                                                                                    <i class="fa fa-solid fa-file"></i>
+                                                                                                <a href=""
+                                                                                                    id="_transkrip"
+                                                                                                    target="_blank"
+                                                                                                    class="btn btn-md btn-outline-info">
+                                                                                                    <i
+                                                                                                        class="fa fa-solid fa-file"></i>
                                                                                                 </a>
                                                                                             </td>
                                                                                         </tr>
                                                                                         <tr>
                                                                                             <td>Ijazah</td>
                                                                                             <td>
-                                                                                                <a href="" id="_ijazah"
-                                                                                                    target="_blank" class="btn btn-md btn-outline-info">
-                                                                                                    <i class="fa fa-solid fa-file"></i>
+                                                                                                <a href=""
+                                                                                                    id="_ijazah"
+                                                                                                    target="_blank"
+                                                                                                    class="btn btn-md btn-outline-info">
+                                                                                                    <i
+                                                                                                        class="fa fa-solid fa-file"></i>
                                                                                                 </a>
                                                                                             </td>
                                                                                         </tr>
                                                                                         <tr>
                                                                                             <td>Bukti Pembayaran</td>
                                                                                             <td>
-                                                                                                <a href="" id="_buktipembayaran"
-                                                                                                    target="_blank" class="btn btn-md btn-outline-info">
-                                                                                                    <i class="fa fa-solid fa-file"></i>
+                                                                                                <a href=""
+                                                                                                    id="_buktipembayaran"
+                                                                                                    target="_blank"
+                                                                                                    class="btn btn-md btn-outline-info">
+                                                                                                    <i
+                                                                                                        class="fa fa-solid fa-file"></i>
                                                                                                 </a>
                                                                                             </td>
                                                                                         </tr>
@@ -309,6 +329,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
                                                                     </div>
                                                                 </div>
                                                             </div>
+                                                            {{-- MODAL LIER --}}
                                                         </td>
                                                         <td>{{ $row->jenis_kelamin == 'L' ? 'Laki-laki' : 'Perempuan' }}
                                                         </td>
@@ -326,25 +347,52 @@ scratch. This page gets rid of all links and provides the needed markup only.
                                                         </td>
                                                         <td>
                                                             <div class="form-group row">
-                                                                <div class="col-sm-8">
-                                                                    <select class="form-control select_aksi"
-                                                                        name="select_aksi"
-                                                                        onchange="seleksiPendaftaran(this, {{ $row->id }})"
-                                                                        {{ $row->status == 'DISETUJUI' || $row->status == 'DITOLAK' ? 'disabled' : '' }}>
-                                                                        <option value="0" selected disabled>Aksi
-                                                                        </option>
-                                                                        <option value="DISETUJUI">Terima</option>
-                                                                        <option value="DITOLAK">Tolak</option>
-                                                                    </select>
-                                                                </div>
                                                                 @if ($row->status == 'DISETUJUI')
-                                                                <div class="col-sm-4">
-                                                                    <a href="{{ url('/kartu-pendaftaran-admin') . '/' . $row->id }}"
-                                                                        target="_blank"
-                                                                        class="btn btn-md btn-primary">
-                                                                        <i class="fas fa-solid fa-print"></i>
-                                                                    </a>
-                                                                </div>
+                                                                    <div class="col-sm-6">
+                                                                        <a href="{{ url('/kartu-pendaftaran-admin') . '/' . $row->id }}"
+                                                                            target="_blank"
+                                                                            class="btn btn-outline-primary"
+                                                                            data-toggle="tooltip" data-placement="top"
+                                                                            title="Cetak Kartu Pendaftaran">
+                                                                            <i class="fas fa-solid fa-print"></i>
+                                                                            Cetak
+                                                                        </a>
+                                                                    </div>
+                                                                    <div class="col-sm-6">
+                                                                        <button
+                                                                            onclick=" hapusPendaftar({{ $row->id }})"
+                                                                            target="_blank"
+                                                                            class="btn btn-outline-danger"
+                                                                            data-toggle="tooltip" data-placement="top"
+                                                                            title="Hapus Data Pendaftar">
+                                                                            <i class="fas fa-trash fa-print"></i>
+                                                                            Hapus
+                                                                        </button>
+                                                                    </div>
+                                                                @else
+                                                                    <div class="col-sm-6">
+                                                                        <select class="form-control select_aksi"
+                                                                            name="select_aksi"
+                                                                            onchange="seleksiPendaftaran(this, {{ $row->id }})"
+                                                                            {{ $row->status == 'DISETUJUI' || $row->status == 'DITOLAK' ? 'disabled' : '' }}>
+                                                                            <option value="0" selected disabled>
+                                                                                Aksi
+                                                                            </option>
+                                                                            <option value="DISETUJUI">Terima</option>
+                                                                            <option value="DITOLAK">Tolak</option>
+                                                                        </select>
+                                                                    </div>
+                                                                    <div class="col-sm-6">
+                                                                        <button
+                                                                            onclick=" hapusPendaftar({{ $row->id }})"
+                                                                            target="_blank"
+                                                                            class="btn btn-outline-danger"
+                                                                            data-toggle="tooltip" data-placement="top"
+                                                                            title="Hapus Data Pendaftar">
+                                                                            <i class="fas fa-trash fa-print"></i>
+                                                                            Hapus
+                                                                        </button>
+                                                                    </div>
                                                                 @endif
                                                             </div>
                                                         </td>
@@ -416,24 +464,24 @@ scratch. This page gets rid of all links and provides the needed markup only.
                     success: function(data) {
                         console.log(data);
                         var urlDokumen = '{{ URL::asset('storage') }}'
-                        $("#_pasfoto").attr('src', urlDokumen + '/' +data.pasfoto);
+                        $("#_pasfoto").attr('src', urlDokumen + '/' + data.pasfoto);
                         $('#_nama').val(data.nama);
                         $('#_email').val(data.email);
-                        if(data.jenis_kelamin == "L"){
+                        if (data.jenis_kelamin == "L") {
                             $('#_jenisKelamin').val('Laki - laki');
-                        } else if(data.jenis_kelamin == "P"){
+                        } else if (data.jenis_kelamin == "P") {
                             $('#_jenisKelamin').val('Perempuan');
                         }
                         $('#_ttl').val(data.tempat_lahir + ', ' + data.tanggal_lahir);
                         $('#_alamat').val(data.alamat);
                         $('#_gelombang').val(data.gelombang);
                         $('#_prodi').val(data.prodi);
-                        
+
                         $("#_kk").attr('href', urlDokumen + '/' + data.kk);
                         $("#_ktp").attr('href', urlDokumen + '/' + data.ktp);
                         $("#_transkrip").attr('href', urlDokumen + '/' + data.transkrip);
                         $("#_ijazah").attr('href', urlDokumen + '/' + data.transkrip);
-                        $("#_buktipembayaran").attr('href', urlDokumen + '/' +data.buktipembayaran);
+                        $("#_buktipembayaran").attr('href', urlDokumen + '/' + data.buktipembayaran);
                     },
                     error: function(data) {
                         console.log('Error:', data);
@@ -490,6 +538,30 @@ scratch. This page gets rid of all links and provides the needed markup only.
                             }
                         });
                     }
+                }
+            }
+
+            function hapusPendaftar(siswa) {
+                if (confirm('Hapus data?')) {
+                    $.ajax({
+                        data: {
+                            'siswa': siswa,
+                        },
+                        url: "{{ route('/hapus-pendaftar') }}",
+                        type: "POST",
+                        dataType: 'json',
+                        success: function(data) {
+                            // alert(data);
+                            if (data.status === 1) {
+                                if (confirm(data.message)) {
+                                    location.reload();
+                                }
+                            }
+                        },
+                        error: function(data) {
+                            console.log('Error:', data);
+                        }
+                    });
                 }
             }
         </script>

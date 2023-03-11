@@ -50,6 +50,7 @@ Route::group(['middleware' => ['auth', 'ceklevel:admin']], function () {
     route::post('/get-pendaftar', [StudentsController::class, 'getPendaftar'])->name('/get-pendaftar');
     route::post('/approve-pendaftaran', [StudentsController::class, 'approvePendaftaran'])->name('/approve-pendaftaran');
     route::post('/denied-pendaftaran', [StudentsController::class, 'deniedPendaftaran'])->name('/denied-pendaftaran');
+    route::post('/hapus-pendaftar', [StudentsController::class, 'hapusPendaftar'])->name('/hapus-pendaftar');
     route::get('/kartu-pendaftaran-admin/{id}', [StudentsController::class, 'kartuPendaftaranAdmin'])->name('/kartu-pendaftaran-admin');
 
     route::get('/kategori-artikel', [CategoriesController::class, 'index'])->name('/kategori-artikel');
