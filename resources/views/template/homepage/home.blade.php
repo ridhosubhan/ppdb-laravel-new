@@ -38,7 +38,7 @@
 @section('hero')
     {{-- <h1>Welcome to Jogja-Travel</h1>
     <h2>Kami adalah agen travel terpercaya dan jaminan layanan perencanaan wisata yang mudah dan murah</h2> --}}
-    <a href="{{ route('/pendaftaran') }}" class="btn-get-started">Pendaftaran</a>
+    {{-- <a href="{{ route('/pendaftaran') }}" class="btn-get-started">Pendaftaran</a> --}}
 @endsection
 
 
