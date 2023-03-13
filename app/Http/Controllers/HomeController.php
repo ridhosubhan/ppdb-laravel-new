@@ -114,30 +114,30 @@ class HomeController extends Controller
                 'alamat.required' => 'Wajib diisi',
 
                 'pasfoto.required' => 'Wajib diisi',
-                'pasfoto.mimes' => 'Mohon upload file foto dengan ekstensi png,jpg,jpeg',
+                'pasfoto.mimes' => 'Mohon upload file dengan ekstensi png,jpg,jpeg',
                 'pasfoto.max' => 'File terlalu besar',
 
                 'kk.required' => 'Wajib diisi',
-                'kk.mimes' => 'Mohon upload file foto dengan ekstensi png,jpg,jpeg',
+                'kk.mimes' => 'Mohon upload file dengan ekstensi png,jpg,jpeg',
                 'kk.max' => 'File terlalu besar',
 
                 'ktp.required' => 'Wajib diisi',
-                'ktp.mimes' => 'Mohon upload file foto dengan ekstensi png,jpg,jpeg',
+                'ktp.mimes' => 'Mohon upload file dengan ekstensi png,jpg,jpeg',
                 'ktp.max' => 'File terlalu besar',
 
                 'gelombang.required' => 'Wajib diisi',
                 'prodi.required' => 'Wajib diisi',
 
                 'transkrip.required' => 'Wajib diisi',
-                'transkrip.mimes' => 'Mohon upload file foto dengan ekstensi pdf',
+                'transkrip.mimes' => 'Mohon upload file dengan ekstensi pdf',
                 'transkrip.max' => 'File terlalu besar',
 
                 'ijazah.required' => 'Wajib diisi',
-                'ijazah.mimes' => 'Mohon upload file foto dengan ekstensi pdf',
+                'ijazah.mimes' => 'Mohon upload file dengan ekstensi pdf',
                 'ijazah.max' => 'File terlalu besar',
 
                 'bukti_pembayaran.required' => 'Wajib diisi',
-                'bukti_pembayaran.mimes' => 'Mohon upload file foto dengan ekstensi png,jpg,jpeg,pdf',
+                'bukti_pembayaran.mimes' => 'Mohon upload file dengan ekstensi png,jpg,jpeg,pdf',
                 'bukti_pembayaran.max' => 'File terlalu besar',
             ]
         );

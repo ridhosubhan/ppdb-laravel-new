@@ -96,7 +96,7 @@
                                         <option value="P" {{ old('jenis_kelamin') == 'P' ? 'selected' : '' }}>Perempuan
                                         </option>
                                     </select>
-                                    @error('pasfoto')
+                                    @error('jenis_kelamin')
                                         <div class="invalid-feedback">
                                             {{ $message }}
                                         </div>
@@ -141,6 +141,11 @@
                                     <input type="file" name="pasfoto"
                                         class="form-control @error('pasfoto') is-invalid @enderror"
                                         value="{{ old('pasfoto') }}">
+                                    <small class="form-text text-muted">
+                                        <strong>
+                                            Mohon unggah foto dengan ekstensi jpg, jpeg, atau png.
+                                        </strong>
+                                    </small>
                                     @error('pasfoto')
                                         <div class="invalid-feedback">
                                             {{ $message }}
@@ -151,6 +156,11 @@
                                     <label for="kk" class="font-weight-bold">Kartu Keluarga</label>
                                     <input type="file" name="kk"
                                         class="form-control @error('kk') is-invalid @enderror" value="{{ old('kk') }}">
+                                    <small class="form-text text-muted">
+                                        <strong>
+                                            Mohon unggah foto dengan ekstensi jpg, jpeg, atau png.
+                                        </strong>
+                                    </small>
                                     @error('kk')
                                         <div class="invalid-feedback">
                                             {{ $message }}
@@ -162,6 +172,11 @@
                                     <input type="file" name="ktp"
                                         class="form-control @error('ktp') is-invalid @enderror"
                                         value="{{ old('ktp') }}">
+                                    <small class="form-text text-muted">
+                                        <strong>
+                                            Mohon unggah foto dengan ekstensi jpg, jpeg, atau png.
+                                        </strong>
+                                    </small>
                                     @error('ktp')
                                         <div class="invalid-feedback">
                                             {{ $message }}
@@ -203,6 +218,11 @@
                                     <input type="file" name="transkrip"
                                         class="form-control @error('transkrip') is-invalid @enderror"
                                         value="{{ old('transkrip') }}">
+                                    <small class="form-text text-muted">
+                                        <strong>
+                                            Mohon unggah foto dengan ekstensi pdf.
+                                        </strong>
+                                    </small>
                                     @error('transkrip')
                                         <div class="invalid-feedback">
                                             {{ $message }}
@@ -214,6 +234,11 @@
                                     <input type="file" name="ijazah"
                                         class="form-control @error('ijazah') is-invalid @enderror"
                                         value="{{ old('ijazah') }}">
+                                    <small class="form-text text-muted">
+                                        <strong>
+                                            Mohon unggah foto dengan ekstensi pdf.
+                                        </strong>
+                                    </small>
                                     @error('ijazah')
                                         <div class="invalid-feedback">
                                             {{ $message }}
@@ -225,6 +250,11 @@
                                     <input type="file" name="bukti_pembayaran"
                                         class="form-control @error('bukti_pembayaran') is-invalid @enderror"
                                         value="{{ old('bukti_pembayaran') }}">
+                                    <small class="form-text text-muted">
+                                        <strong>
+                                            Mohon unggah foto dengan ekstensi jpg, jpeg, atau png.
+                                        </strong>
+                                    </small>
                                     @error('bukti_pembayaran')
                                         <div class="invalid-feedback">
                                             {{ $message }}
