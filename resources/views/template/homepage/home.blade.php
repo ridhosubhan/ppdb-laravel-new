@@ -50,7 +50,7 @@
                 <div class="col-lg-3 text-center text-lg-left">
 
                     <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTQKt-CgYHkaWEPyCIfnEnRoS3rKscdQAE_T356O1a2&s"
-                        class="rounded mx-auto d-block img-responsive" height="300">
+                        class="rounded mx-auto d-block img-responsive">
                 </div>
                 <div class="col-lg-9 cta-btn-container text-justify">
                     <p class="cta-text">

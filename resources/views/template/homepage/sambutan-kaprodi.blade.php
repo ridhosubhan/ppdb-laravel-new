@@ -102,8 +102,7 @@
                                                 {{-- <img src="https://images.unsplash.com/photo-1518556336318-c8de4355ccab?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=385&q=80"
                                                     class="rounded mx-auto d-block" alt=""> --}}
                                                 <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTQKt-CgYHkaWEPyCIfnEnRoS3rKscdQAE_T356O1a2&s"
-                                                    class="rounded mx-auto d-block card-image-container" alt=""
-                                                    height="300">
+                                                    class="rounded mx-auto d-block card-image-container" alt="">
                                             </div>
                                             <div class="d-flex flex-column ml-2 text-center">
                                                 <span class="font-weight-bold">Dr. Oviyan Patra, Ir., MT., IPM.</span>
