@@ -49,18 +49,27 @@
             <div class="row">
                 <div class="col-lg-3 text-center text-lg-left">
 
-                    <img src="https://static.wixstatic.com/media/8378e733acb9408f22d80c3ad1ab268e.jpg/v1/fill/w_135,h_191,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/Science%20Teacher.jpg"
-                        class="rounded mx-auto d-block img-responsive" alt="">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTQKt-CgYHkaWEPyCIfnEnRoS3rKscdQAE_T356O1a2&s"
+                        class="rounded mx-auto d-block img-responsive" height="300">
                 </div>
-                <div class="col-lg-9 cta-btn-container text-center">
+                <div class="col-lg-9 cta-btn-container text-justify">
                     <p class="cta-text">
                         <b>Sambutan Kaprodi</b>
                         <br>
-                        Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-                        pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit
-                        anim id est laborum.
+                        Selamat Datang di Website Magister Manajemen Teknologi Universitas Jenderal
+                        Achmad
+                        Yani..
                         <br>
-                        <a class="cta-btn align-middle" href="#">Selengkapnya</a>
+                        <br>
+                        Website Magister Manajemen Teknologi Universitas Jenderal Achmad Yani
+                        menyajikan
+                        informasi bagi para calon mahasiswa atau masyarakat yang ingin mengetahui tentang
+                        kurikulum yang ditawarkan oleh Magister Manajemen Teknologi Unjani.
+                        Magister Manajemen Teknologi Teknologi Universitas Jenderal Achmad Yani dirancang
+                        untuk mencetak dan melahirkan pemimpin dalam organisasi bisnis, sosial, militer,
+                        ataupun pemerintahan yang memiliki kemampuan analisis yang kuat.
+                        <br>
+                        <a class="cta-btn align-middle" href="{{ url('/sambutan-kaprodi') }}">Selengkapnya</a>
                     </p>
 
 

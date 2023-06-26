@@ -70,6 +70,11 @@
 
             margin-top: -19px;
         }
+
+        .card-image-container {
+            background: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTQKt-CgYHkaWEPyCIfnEnRoS3rKscdQAE_T356O1a2&s') 50% no-repeat;
+            background-size: cover;
+        }
     </style>
 @endsection
 
@@ -94,11 +99,14 @@
                                         aria-expanded="true" aria-controls="collapseOne">
                                         <div class="card-body py-4 mt-2">
                                             <div class="d-flex justify-content-center mb-4">
-                                                <img src="https://images.unsplash.com/photo-1518556336318-c8de4355ccab?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=385&q=80"
-                                                    class="rounded mx-auto d-block" alt="">
+                                                {{-- <img src="https://images.unsplash.com/photo-1518556336318-c8de4355ccab?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=385&q=80"
+                                                    class="rounded mx-auto d-block" alt=""> --}}
+                                                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTQKt-CgYHkaWEPyCIfnEnRoS3rKscdQAE_T356O1a2&s"
+                                                    class="rounded mx-auto d-block card-image-container" alt=""
+                                                    height="300">
                                             </div>
                                             <div class="d-flex flex-column ml-2 text-center">
-                                                <span class="font-weight-bold">Lorem Ipsum</span>
+                                                <span class="font-weight-bold">Dr. Oviyan Patra, Ir., MT., IPM.</span>
                                                 <span>Ketua Program Studi</span>
                                             </div>
                                         </div>
@@ -120,20 +128,39 @@
                                         <i class="fa fa-star"></i>
                                         <i class="fa fa-star"></i>
                                     </div> --}}
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                                        incididunt
-                                        ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-                                        ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-                                        reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-                                        Excepteur
-                                        sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim
-                                        id
-                                        est laborum.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-                                        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+                                    <h6>
+                                        Assalamu’alaikum Warahmatullahi Wabarakatuh
+                                    </h6>
+                                    <p class="text-justify ">
+                                        &emsp;Selamat Datang di Website Magister Manajemen Teknologi Universitas Jenderal
+                                        Achmad
+                                        Yani..
+                                    </p>
+                                    <p class="text-justify">
+
+                                        &emsp;Website Magister Manajemen Teknologi Universitas Jenderal Achmad Yani
+                                        menyajikan
+                                        informasi bagi para calon mahasiswa atau masyarakat yang ingin mengetahui tentang
+                                        kurikulum yang ditawarkan oleh Magister Manajemen Teknologi Unjani.
+                                        Magister Manajemen Teknologi Teknologi Universitas Jenderal Achmad Yani dirancang
+                                        untuk mencetak dan melahirkan pemimpin dalam organisasi bisnis, sosial, militer,
+                                        ataupun pemerintahan yang memiliki kemampuan analisis yang kuat.
+                                    </p>
+                                    <p class="text-justify">
+                                        &emsp;Prodi Magister Manajemen Teknologi Unjani masih terus belajar untuk terus
+                                        meningkatkan kualitas pengelolaan prodi Magister Manajemen Teknologi Unjani dengan
+                                        selalu mempertimbangkan masukan dari Stakeholder. Hal ini sebagai bentuk perwujudan
+                                        dari keinginan prodi Magister Manajemen Teknologi Unjani untuk selalu menjadi lebih
+                                        baik dengan memberikan yang terbaik bagi masyarakat, bangsa dan negara Indonesia
+                                    </p>
+
+                                    <h6>
+                                        Wassalamualaikum warahmatullahi wabarakatuh
+                                    </h6>
                                 </div>
                             </div>
 
-                            <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo"
+                            {{-- <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo"
                                 data-parent="#accordionExample">
                                 <div class="card-body">
                                     <h4>Thanks for this great service</h4>
@@ -179,7 +206,7 @@
                                         est laborum.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
                                         tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
                                 </div>
-                            </div>
+                            </div> --}}
                         </div>
                     </div>
 

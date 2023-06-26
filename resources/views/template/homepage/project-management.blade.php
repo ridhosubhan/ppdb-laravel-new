@@ -64,12 +64,12 @@
             </div>
             <div class="col-lg-6">
                 <p align="justify">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-                    dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
-                    ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
-                    fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
-                    deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                    eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
+                    Magister Manajemen Teknologi (MMT) UNJANI yang difokuskan pada konsentrasi Manajemen Proyek, diharapkan
+                    dapat menganalisis sistem organisasi bisnis, sosial, mililter, ataupun pemerintahan yang senantiasa
+                    dihadapkan pada proyek pengembangan, inovasi, ataupun perbaikan sistem. Proyek yang dimaksud tentu tidak
+                    hanya sebatas proyek konstruksi, tetapi menyangkut proyek pengelolaan organisasi. Bidang keahlian
+                    Manajemen Proyek akan mengajarkan mahasiswa berbagai ilmu, mulai dari ilmu fondasi, manajemen
+                    fungsional, sampai pada ilmu-ilmu khusus yang memperdalam bidang pengelolaan proyek.
                 </p>
             </div>
         </div>
