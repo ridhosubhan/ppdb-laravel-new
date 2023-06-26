@@ -47,10 +47,11 @@
     <section id="call-to-action">
         <div class="container wow fadeIn">
             <div class="row">
-                <div class="col-lg-3 text-center text-lg-left">
-
+                <div class="col-lg-3">
                     <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTQKt-CgYHkaWEPyCIfnEnRoS3rKscdQAE_T356O1a2&s"
-                        class="rounded mx-auto d-block img-responsive">
+                        class="rounded mx-auto pull-right img-responsive">
+                    {{-- <div class="d-flex justify-content-end">
+                    </div> --}}
                 </div>
                 <div class="col-lg-9 cta-btn-container text-justify">
                     <p class="cta-text">
